@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Gugi" rel="stylesheet" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AMD</title>
+    <link rel="icon" type="image/x-icon" href="https://img.icons8.com/ios-filled/100/amd.png" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header id="header">
+        <nav id="nav-bar">
+            <div class="logo">
+                <img id="header-img" width="25" height="25" src="https://img.icons8.com/ios-filled/100/amd.png" alt="amd" />
+            </div>
+            <ul>
+                <li><a class="nav-link" href="#Product">Product</a></li>
+                <li><a class="nav-link" href="#Features">Features</a></li>
+                <li><a class="nav-link" href="#Specs">Specs</a></li>
+                <li><a class="nav-link" href="#Video">Video</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="site-wrapper">
+        <div id="Product" class="product-main-content">
+            <div class="product-text">
+                <div class="ai-title">
+                    <h1>AMD Instinct™ MI300 Series Accelerators.</h1>
+                </div>
+                <div class="ai-subtitle">
+                    <h3>Leadership Generative AI Accelerators and Data Center APUs</h3>
+                    <!---Double check the size above-->
+                </div>
+                <div ai-description">
+                    <p>
+                        AMD Instinct™ MI300 Series accelerators are uniquely well-suited to power
+                        even the most demanding AI and HPC workloads, offering exceptional compute
+                        performance, large memory density, high bandwidth memory, and support for
+                        specialized data formats. AMD Instinct MI300 Series accelerators are built
+                        on AMD CDNA™ 3 architecture, which offers Matrix Core Technologies and
+                        support for a broad range of precision capabilities—from the highly
+                        efficient INT8 and FP8 (including sparsity support for AI), to the most
+                        demanding FP64 for HPC.
+                    </p>
+                </div>
+                <form id="form" class="email-submit" action="https://www.freecodecamp.com/email-submit">
+                    <h2 class="red">BE IN THE KNOW:</h2>
+                    <input name="email" id="email" class="email-input" type="email" placeholder="Enter email address...." required>
+                    <input id="submit" class="button" type="submit" value="Send">
+                </form>
+            </div>
+
+            <div class="product-img">
+                <img src="https://i.imgur.com/Y9ARLrFh.png" alt="Image of AMD instinct M!300">
+            </div>
+        </div>
+        <div class="quote">
+            <blockquote>
+                <p>Expected to deliver 20.9 PFLOPs FP16 and BF16 peak theoretical
+                    floating-point performance with sparsity.
+                </p>
+                <figcaption class="red"><cite>-NOTReal-</cite></figcaption>
+            </blockquote>
+        </div>
+
+        <div id="Features" class="features">
+            <div class="features-text">
+                <div class="fea-title">
+                    <h3>AMD Instinct MI300A APUs</h3>
+                    <h1>Data Center AI Solutions with AMD Instinct MI300 Series</h1>
+                </div>
+                <div class="fea-chars">
+                    <ul>
+                        <li>
+                            <h3>Combine the power of AMD Instinct accelerators and AMD EPYC™</h3>
+                            <p>processors with shared memory to enable enhanced efficiency, flexibility, and programmability.</p>
+                        </li>
+                       
+                        <li>
+                            <h3>AMD Instinct MI300X Series accelerators:</h3>
+                            <p>Are designed to deliver leadership performance for Generative AI workloads and HPC applications.</p>
+                        </li>
+                        <li>
+                            <h3>AMD Instinct MI300X Platform</h3>
+                            <p>Integrates 8 fully connected MI300X GPU OAM modules onto an industry-standard OCP design.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="features-image">
+                <img alt="AMD Instinct MI300x platform image" src="https://www.donanimhaber.com/cache-v2/?t=20230616093404&width=-1&text=0&path=https://www.donanimhaber.com/images/images/haber/164899/src/amd-nin-instinct-mi300x-kartinin-guc-tuketimi-sasirtti164899_0.jpg">
+            </div>
+        </div>
+
+        <div id="Specs" class="specs">
+            <h1>Specs</h1>
+            <div class="table-wrapper">
+                <table class="specs-table">
+                    <tbody>
+                    <tr class="spec-container">
+                        <td class="spec-char">
+                           GPU Compute Units:
+                        </td>
+                        <td class="spec-value">
+                            228 CUs
+                        </td>
+                    </tr>
+                    <tr class="spec-container">
+                        <td class="spec-char">
+                            x86 CPU Cores:
+                        </td>
+                        <td class="spec-value">
+                            24"Zen 4"
+                        </td>
+                    </tr>
+                    <tr class="spec-container">
+                        <td class="spec-char">
+                            Unified HBM3 Memory 
+                        </td>
+                        <td class="spec-value">
+                            128 GB
+                        </td>
+                    </tr>
+                    <tr class="spec-container">
+                        <td class="spec-char">
+                            Theoretical Memory Bandwidth
+                        </td>
+                        <td class="spec-value">
+                            5.3 TB/s
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+                <input id="full-specs" class="button" type="submit" value="View Full Specs"/>
+                <a href="#">Check Compatibility</a>
+            </div>
+        </div>
+        <div id="Video" class="shop">
+            <h2>Shop</h2>
+            <div class="shop-description">
+                <h1>AMD Instinct MI300 APU</h1>
+                <h2>Starting at $1750.00</h2>
+                 <input id="purchase" class="button" type="submit" value="See all buying options" />
+            </div>
+            <div class="shop-video">
+                <iframe id="video" width="780" height="438" src="https://www.youtube.com/embed/ulRHTMLnte4" title="Introducing AMD Instinct™ MI100 accelerator: First data center GPU to surpass the 10TF FP64 barrier." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</body>  
+<footer id="footer" class="footer">
+    <ul>
+        <li>
+            <a href="#">Privacy Policy</a>
+        </li>
+        <li>
+            <a href="#">Manage My Privacy</a>
+        </li>
+        <li>
+            <a href="#">Terms of Service</a>
+        </li>
+        <li>
+            <a href="#">Legal</a>
+        </li>
+        <li>
+            <a href="#">Product Security Policy</a>
+        </li>
+        <li>
+            <a href="#">Contacts</a>
+        </li>
+    </ul>
+    <p>Copyright © 2023-24 Fake Corporation</p>
+</footer>  
+            
+            
+           
+            
+            
+        
+    
+
+</html>    
+                    
